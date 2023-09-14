@@ -19,10 +19,10 @@ export default function Home() {
 
       <section className='flex justify-center flex-col items-center'>
         <Image
-          src="/logo.jpg"
+          src="/ve01-1.jpg"
           width={380}
           height={200}
-          alt="Picture of the author"
+          alt=""
         />
         <h1 className='text-[100px]'>
           deu boa
