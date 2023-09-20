@@ -24,6 +24,7 @@ export default function Home() {
           height={200}
           alt=""
         />
+
         <h1 className='text-[100px]'>
           deu boa
         </h1>
@@ -37,10 +38,49 @@ export default function Home() {
         </div>
       </section>
 
-      <footer className='text-[50px] bg-gray-300'>
+      <footer className='flex justify-evenly text-xl bg-gray-300'>
+        
+        <div>
+
+         <h1>
+          numero
+         </h1>
+
+         <p>
+          981237126
+         </p>
+
+        </div>
+
+        <div>
+
         <h1>
-          Contato:
-        </h1>
+          nome
+         </h1>
+
+         <p>
+          jefferson
+         </p>
+
+     
+        </div>
+
+        <div>
+        <h1>
+          email
+         </h1>
+
+         <p>
+          jeffersonconta@gmail.com
+         </p>  
+        </div>
+
+
+        
+
+       
+
+
       </footer>
 
     </>
