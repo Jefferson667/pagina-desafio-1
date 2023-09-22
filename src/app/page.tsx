@@ -70,7 +70,7 @@ export default function Home() {
         </div>
 
         <div className='text-[20px] p-3 w-full text-center text-white'>
-          afsdad
+          power street
         </div>
 
         </section>
