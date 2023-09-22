@@ -4,7 +4,8 @@ import Link from 'next/link';
 import Header from './components/header';
 import Banner from './components/banner';
 import Footer from './components/footer';
-import Fotobg from './components/fotobg';
+import Fotobg from './components/fotobg'; 
+
 
 export default function Home() {
   return (
@@ -13,6 +14,8 @@ export default function Home() {
       <Fotobg/>
       <Banner/>
       <Footer/>
+
+      
     </>
   )
 }
