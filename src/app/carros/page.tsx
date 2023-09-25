@@ -11,13 +11,8 @@ export default function Home() {
             height={500}
             src={"/fe.jpg"}
             alt='ops'
-        ></Image>
-
-       
-
-         
+        />
      </section>
-      
     </>
   )
 }

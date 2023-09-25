@@ -12,11 +12,10 @@ export default function Card(props:CardPropsType) {
 
         <div>
             <img className='w-[300px]' src={props.img} alt="" />
-            <div className='text-black justify-center flex'>
+            <div className='justify-center flex'>
             </div>
             {/* tudo que mexer aki sera mudado em todos os ussos desse componente */}
             {props.title}
-            test2
         </div>
     )
 }

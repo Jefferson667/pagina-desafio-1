@@ -11,11 +11,10 @@ import Card from './components/card';
 export default function Home() {
   return (
     <>
-      <Header/>
       <Fotobg/>
       <Banner/>
       <Card img='/fe.jpg' title='ferrari'/>
-      <Card img='/maserati.jpg' title='test 1'/>
+      <Card img='/maserati.jpg' title='test'/>
       <Footer/>
 
 
