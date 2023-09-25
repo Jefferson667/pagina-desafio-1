@@ -1,24 +1,22 @@
-import { type } from "os"
 
-type cardmotor={
-    title:string,
-    src:string,
+
+interface CardPropsType {
+
+    img:string
+    title:string
 }
-export default function CardF(props:cardmotor) {
+
+
+export default function Card(props:CardPropsType) {
     return (
 
         <div>
-            <img className='w-[400px]' src={props.src} alt="" />
-            <div className='text-white justify-center flex'>
-                {props.title}
+            <img className='w-[300px]' src={props.img} alt="" />
+            <div className='text-black justify-center flex'>
             </div>
-         </div>
+            {/* tudo que mexer aki sera mudado em todos os ussos desse componente */}
+            {props.title}
+            test2
+        </div>
     )
- }
-
-//  <div>
-//             <img className='w-[400px]' src="https://allthecars.files.wordpress.com/2014/02/ferrari-california-t-2.jpg" alt="" />
-//             <div className='text-white justify-center flex'>
-//                 motor v8 com 8 bicos injetores de alta perfomace
-//             </div>
-//          </div> 
+}

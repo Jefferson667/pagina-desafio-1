@@ -9,9 +9,11 @@ export default function Home() {
         <Image
             width={500}
             height={500}
-            src={"/carros.jpg"}
+            src={"/fe.jpg"}
             alt='ops'
         ></Image>
+
+       
 
          
      </section>

@@ -5,6 +5,7 @@ import Header from './components/header';
 import Banner from './components/banner';
 import Footer from './components/footer';
 import Fotobg from './components/fotobg'; 
+import Card from './components/card';
 
 
 export default function Home() {
@@ -13,7 +14,10 @@ export default function Home() {
       <Header/>
       <Fotobg/>
       <Banner/>
+      <Card img='/fe.jpg' title='ferrari'/>
+      <Card img='/maserati.jpg' title='test 1'/>
       <Footer/>
+
 
       
     </>
