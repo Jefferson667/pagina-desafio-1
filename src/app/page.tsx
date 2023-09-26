@@ -13,8 +13,6 @@ export default function Home() {
     <>
       <Fotobg/>
       <Banner/>
-      <Card img='/fe.jpg' title='ferrari'/>
-      <Card img='/maserati.jpg' title='test'/>
       <Footer/>
 
 
