@@ -6,7 +6,7 @@ export let interior = "couro legitimo"
 export let freio = "freio de titanio pinças em carbono"
 
 
-export default function Banner() {
+export default function banner() {
     return (
 
         <section className='bg-black'>
