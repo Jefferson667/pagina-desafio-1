@@ -10,9 +10,14 @@ interface CardPropsType {
 
 
 export default function Card(props: CardPropsType) {
+    let user = {
+        name:"Rom",
+        age:12
+    }
+
     return (
 
-        <div className="hover:scale-[1.3] transition">
+        <div className="hover:scale-[1.1] transition">
             <Image
                 width={300}
                 height={100}
@@ -20,9 +25,9 @@ export default function Card(props: CardPropsType) {
                 alt={"test"}
                 className="h-[12em] w-auto"
             />
-
-            <div className='justify-center flex'>
-            </div>
+            <h1 className='justify-center flex'>
+            {props.title}
+            </h1>
             {/* tudo que mexer aki sera mudado em todos os ussos desse componente */}
             {props.title}
         </div>
