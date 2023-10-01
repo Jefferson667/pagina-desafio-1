@@ -14,9 +14,6 @@ export default function Home() {
       <Fotobg/>
       <Banner/>
       <Footer/>
-
-
-      
     </>
   )
 }
