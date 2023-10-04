@@ -1,18 +1,20 @@
 import Image from 'next/image'
 import Link from 'next/link';
-
+import Pagina2Card from '../components/pagina2card';
+import Card from '../components/card';
 
 export default function Home() {
   return (
     <>
-     <section>
-        <Image
-            width={500}
-            height={500}
-            src={"/fe.jpg"}
-            alt='ops'
+      <section>
+
+        
+
+        <Pagina2Card
+         png="/ferrari.png"
         />
-     </section>
+
+      </section>
     </>
   )
 }

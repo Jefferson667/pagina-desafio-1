@@ -29,7 +29,7 @@ export default function Card(props: CardPropsType) {
             {props.title}
             </h1>
             {/* tudo que mexer aki sera mudado em todos os ussos desse componente */}
-            {props.title}
+            
         </div>
     )
 }
