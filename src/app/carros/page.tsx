@@ -7,13 +7,7 @@ export default function Home() {
   return (
     <>
       <section>
-
-        
-
-        <Pagina2Card
-         png="/ferrari.png"
-        />
-
+        <Pagina2Card png="/ferrari.png"/>
       </section>
     </>
   )
